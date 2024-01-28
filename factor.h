@@ -8,6 +8,7 @@
 #define _GNU_SOURCE
 
 
-void factorize(int number);
+/* size_t getline(char **lineptr, size_t *n, FILE *stream); */
+int factorize(char *buffer);
 
-#endif
+#endif /* _FACTOR_H_ */
